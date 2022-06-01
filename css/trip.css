@@ -1,0 +1,94 @@
+#trip article {
+  position: relative;
+}
+#trip article .slider {
+  list-style: none;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+#trip article .slider:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#trip article .slider li {
+  width: 70%;
+  height: 500px;
+  opacity: 0;
+  margin: 0 auto;
+}
+#trip article .slider li div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+}
+#trip article .slider li dl {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+#trip article .slider li .right {
+  left: auto;
+  right: 20px;
+  text-align: right;
+}
+#trip article .slider li dt {
+  color: rgba(255, 255, 255, 0.809);
+  font-size: 2rem;
+  text-shadow: 1px 1px 10px #444;
+}
+
+#trip article .btn1 {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+#trip article .btn2 {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+#trip article button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #666;
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#trip article button:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #trip article .slider li div {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+  }
+  #trip article .btn1 {
+    left: 0;
+  }
+  #trip article .btn2 {
+    right: 0;
+  }
+  #trip article .slider li dt {
+    color: rgba(255, 255, 255, 0.809);
+    font-size: 1rem;
+    text-shadow: 1px 1px 10px #444;
+  }
+}

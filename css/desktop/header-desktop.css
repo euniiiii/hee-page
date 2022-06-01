@@ -1,0 +1,21 @@
+@media screen and (min-width: 1024px) {
+  /* Header-Desktop */
+  header {
+    width: 90%;
+    height: 80px;
+    margin:  0 auto;
+  }
+  header nav {
+    margin-right: 20px;
+    display: block;
+  }
+  nav a {
+    vertical-align: bottom;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+}

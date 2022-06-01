@@ -1,0 +1,42 @@
+@import url('./mobile/header-mobile.css');
+@import url('./desktop/header-desktop.css');
+@import url('./tablet/header-tablet.css');
+@import url('./home.css');
+@import url('./plan.css');
+@import url('./trip.css');
+@import url('./playlist.css');
+
+html,
+body {
+  max-width: 1440px;
+  height: 100%;
+  max-height: 1230px;
+  margin: 0 auto;
+}
+section {
+  height: 80%;
+}
+article {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#plan {
+  display: none;
+}
+#trip {
+  display: none;
+}
+#playlist {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  section {
+    height: 100%;
+  }
+  article {
+    height: 100%;
+    padding-bottom: 100px;
+  }
+}
