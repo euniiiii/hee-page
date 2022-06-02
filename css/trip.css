@@ -81,18 +81,24 @@
     border-radius: 10px;
   }
   #trip article .btn1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     left: 0;
+    top: 15%;
   }
   #trip article .btn2 {
     right: 0;
+    top: 15%;
   }
   #trip article .slider li dt {
     color: rgba(255, 255, 255, 0.809);
     font-size: 1rem;
     text-shadow: 1px 1px 10px #444;
   }
-  #trip article button{
+  #trip article button {
     width: 40px;
     height: 40px;
+    font-size: 20px;
   }
 }
