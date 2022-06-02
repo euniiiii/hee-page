@@ -20,7 +20,7 @@ article {
   width: 80%;
   height: 80%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 #plan {
   display: none;
@@ -37,6 +37,6 @@ article {
   }
   article {
     height: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
